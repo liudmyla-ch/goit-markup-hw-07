@@ -1,4 +1,4 @@
-.features__list {
+.features {
   display: flex;
 }
 .features__item {
@@ -8,7 +8,7 @@
     margin-right: 0;
   }
 }
-.features__name {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -22,7 +22,7 @@
   color: var(--gray-text-color);
   letter-spacing: 0.03em;
 }
-.features__icon {
+.features__icon-box {
   height: 120px;
   background-color: var(--background-gray-color);
   display: flex;

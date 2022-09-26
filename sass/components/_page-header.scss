@@ -8,11 +8,12 @@ header {
   align-items: center;
 }
 .navigation {
-  margin-left: 93px;
+  display: flex;
+  align-items: center;
 }
 
 .navigation__list,
-.contacts__list {
+.contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

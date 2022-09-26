@@ -1,11 +1,7 @@
-.services__section {
-  padding-top: 0;
-}
-
-.services__list {
+.services {
   display: flex;
 }
-.services__card {
+.services__item {
   margin-right: 30px;
   justify-content: center;
   &:last-child {
@@ -24,7 +20,7 @@
   text-transform: uppercase;
   color: var(--white-color);
 }
-.services__titlebox {
+.services__title-box {
   display: flex;
   position: absolute;
   align-items: center;
